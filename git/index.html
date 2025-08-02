@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>apt - ISA-Rel</title>
+    <title>git - ISA-Rel</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "apt";
-        var mkdocs_page_input_path = "apt.md";
+        var mkdocs_page_name = "git";
+        var mkdocs_page_input_path = "git.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -43,14 +43,14 @@
                 <li class="toctree-l1"><a class="reference internal" href="..">Início</a>
                 </li>
               </ul>
-              <ul class="current">
-                <li class="toctree-l1 current"><a class="reference internal current" href="./">apt</a>
-    <ul class="current">
-    </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../apt/">apt</a>
                 </li>
               </ul>
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../git/">git</a>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">git</a>
+    <ul class="current">
+    </ul>
                 </li>
               </ul>
               <ul>
@@ -81,7 +81,7 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
-      <li class="breadcrumb-item active">apt</li>
+      <li class="breadcrumb-item active">git</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -90,41 +90,52 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="apt">apt</h1>
-<p>apt 2.8.3 (amd64)
-Usage: apt [options] command</p>
-<p>apt is a commandline package manager and provides commands for
-searching and managing as well as querying information about packages.
-It provides the same functionality as the specialized APT tools,
-like apt-get and apt-cache, but enables options more suitable for
-interactive use by default.</p>
-<p>Most used commands:</p>
-<ul>
-<li><code>list</code> - list packages based on package names</li>
-<li><code>search</code> - search in package descriptions</li>
-<li><code>show</code> - show package details</li>
-<li><code>install</code> - install packages</li>
-<li><code>reinstall</code> - reinstall packages</li>
-<li><code>remove</code> - remove packages</li>
-<li><code>autoremove</code> - automatically remove all unused packages</li>
-<li><code>update</code> - update list of available packages</li>
-<li><code>upgrade</code> - upgrade the system by installing/upgrading packages</li>
-<li><code>full-upgrade</code> - upgrade the system by removing/installing/upgrading packages</li>
-<li><code>edit-sources</code> - edit the source information file</li>
-<li><code>satisfy</code> - satisfy dependency strings</li>
-</ul>
-<p>See apt(8) for more information about the available commands.
-Configuration options and syntax is detailed in apt.conf(5).
-Information about how to configure sources can be found in sources.list(5).
-Package and version choices can be expressed via apt_preferences(5).
-Security details are available in apt-secure(8).
-                                        This APT has Super Cow Powers.</p>
+                <h1 id="git">git</h1>
+<p>usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]
+           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]
+           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]
+           <command> [<args>]</p>
+<p>These are common Git commands used in various situations:</p>
+<p>start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one</p>
+<p>work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   restore    Restore working tree files
+   rm         Remove files from the working tree and from the index</p>
+<p>examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   diff       Show changes between commits, commit and working tree, etc
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status</p>
+<p>grow, mark and tweak your common history
+   backfill   Download missing objects in a partial clone
+   branch     List, create, or delete branches
+   commit     Record changes to the repository
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   reset      Reset current HEAD to the specified state
+   switch     Switch branches
+   tag        Create, list, delete or verify a tag object signed with GPG</p>
+<p>collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects</p>
+<p>'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.</p>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href=".." class="btn btn-neutral float-left" title="Início"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../git/" class="btn btn-neutral float-right" title="git">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../apt/" class="btn btn-neutral float-left" title="apt"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../mkdocs/" class="btn btn-neutral float-right" title="mkdocs">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -147,10 +158,10 @@ Security details are available in apt-secure(8).
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../apt/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="../git/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../mkdocs/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>

@@ -3,22 +3,22 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="None" />
-      <link rel="shortcut icon" href="img/favicon.ico" />
-    <title>ISA-Rel</title>
-    <link rel="stylesheet" href="css/theme.css" />
-    <link rel="stylesheet" href="css/theme_extra.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>mkdocs - ISA-Rel</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "In\u00edcio";
-        var mkdocs_page_input_path = "index.md";
+        var mkdocs_page_name = "mkdocs";
+        var mkdocs_page_input_path = "mkdocs.md";
         var mkdocs_page_url = null;
       </script>
     
     <!--[if lt IE 9]>
-      <script src="js/html5shiv.min.js"></script>
+      <script src="../js/html5shiv.min.js"></script>
     <![endif]-->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
       <script>hljs.highlightAll();</script> 
@@ -30,41 +30,41 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-          <a href="." class="icon icon-home"> ISA-Rel
+          <a href=".." class="icon icon-home"> ISA-Rel
         </a><div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
       <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
   </form>
 </div>
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Início</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../apt/">apt</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../git/">git</a>
+                </li>
+              </ul>
               <ul class="current">
-                <li class="toctree-l1 current"><a class="reference internal current" href=".">Início</a>
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">mkdocs</a>
     <ul class="current">
     </ul>
                 </li>
               </ul>
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="apt/">apt</a>
-                </li>
-              </ul>
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="git/">git</a>
-                </li>
-              </ul>
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="mkdocs/">mkdocs</a>
-                </li>
-              </ul>
               <p class="caption"><span class="caption-text">Comandos</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="comandos/apt/">apt</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../comandos/apt/">apt</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Historicos</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="historicos/historico_2025-07-25/">Histórico: 25/07/2025</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../historicos/historico_2025-07-25/">Histórico: 25/07/2025</a>
                   </li>
               </ul>
       </div>
@@ -74,14 +74,14 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
       <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href=".">ISA-Rel</a>
+          <a href="..">ISA-Rel</a>
         
       </nav>
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="." class="icon icon-home" aria-label="Docs"></a></li>
-      <li class="breadcrumb-item active">Início</li>
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">mkdocs</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -90,13 +90,28 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="inicio">Início</h1>
-<p>Sou aluno do <a href="https://portal.ifrn.edu.br/campus/parnamirim/">IFRN campus Parnamirim</a>.</p>
+                <h1 id="mkdocs">mkdocs</h1>
+<p>Usage: mkdocs [OPTIONS] COMMAND [ARGS]...</p>
+<p>MkDocs - Project documentation with Markdown.</p>
+<p>Options:
+  -V, --version         Show the version and exit.
+  -q, --quiet           Silence warnings
+  -v, --verbose         Enable verbose output
+  --color / --no-color  Force enable or disable color and wrapping for the
+                        output. Default is auto-detect.
+  -h, --help            Show this message and exit.</p>
+<p>Commands:
+  build      Build the MkDocs documentation
+  get-deps   Show required PyPI packages inferred from plugins in mkdocs.yml
+  gh-deploy  Deploy your documentation to GitHub Pages
+  new        Create a new MkDocs project
+  serve      Run the builtin development server</p>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="apt/" class="btn btn-neutral float-right" title="apt">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../git/" class="btn btn-neutral float-left" title="git"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../comandos/apt/" class="btn btn-neutral float-right" title="apt">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -119,16 +134,18 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
+      <span><a href="../git/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
-      <span><a href="apt/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+      <span><a href="../comandos/apt/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script>var base_url = ".";</script>
-    <script src="js/theme_extra.js"></script>
-    <script src="js/theme.js"></script>
-      <script src="search/main.js"></script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
     <script>
         jQuery(function () {
             SphinxRtdTheme.Navigation.enable(true);
@@ -137,8 +154,3 @@
 
 </body>
 </html>
-
-<!--
-MkDocs version : 1.5.3
-Build Date UTC : 2025-08-02 01:01:46.037184+00:00
--->
