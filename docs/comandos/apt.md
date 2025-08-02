@@ -36,7 +36,7 @@ Security details are available in apt-secure(8).
 ```
 apt
 
-[0m[0mPackage manager for Debian-based distributions.
+Package manager for Debian-based distributions.
 Intended as a user-friendly alternative to apt-get for interactive use.
 For equivalent commands in other package managers, see https://wiki.archlinux.org/title/Pacman/Rosetta.
 More information: https://manned.org/apt.8.
